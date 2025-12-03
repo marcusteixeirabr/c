@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1761177750 source:c:\users\marcu\nextcloud5\programacao\c\bilheteria\main.c
+	<stdio.h>
+	<stdlib.h>
+

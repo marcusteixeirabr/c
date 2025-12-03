@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1761168705 source:c:\users\marcu\nextcloud5\programacao\c\teste\main.c
+	<stdio.h>
+	<stdlib.h>
+
