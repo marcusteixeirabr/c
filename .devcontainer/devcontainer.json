@@ -1,0 +1,31 @@
+{
+  "name": "C/C++ Dev Container",
+
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        "ms-vscode.cpptools-themes",
+        "jeff-hykin.better-cpp-syntax",
+        "notskm.clang-tidy",
+        "xaver.clang-format"
+      ],
+      "settings": {
+        "C_Cpp.intelliSenseEngine": "default",
+        "C_Cpp.default.compilerPath": "/usr/bin/g++",
+        "editor.formatOnSave": true,
+        "clang-format.style": "LLVM"
+      }
+    }
+  },
+
+  "remoteUser": "vscode"
+}
